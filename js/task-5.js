@@ -30,15 +30,11 @@ const getAllPropValues = function(arr, prop) {
   
   for (let i = 0; i < products.length; i++){
       oneProductObject = products[i];
-      //console.log(oneProductObject);
-      
-       let values = Object.values(oneProductObject);
-  //console.log(values);
-      
+     
       keys = Object.keys(oneProductObject);
-     // console.log(keys);
-          
-      for (key of keys) {
+ 
+       
+      for (let key of keys) {
           if (key === prop) {
               oneValueArray.push(oneProductObject[key]);
               
