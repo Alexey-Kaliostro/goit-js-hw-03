@@ -26,7 +26,6 @@ user.mood = "happy";
 user["hobby"] = "skydiving"
 user.premium = false;
 
-let objectKeys = "";
 let objectKeysValue = "";
 let list= "";
 

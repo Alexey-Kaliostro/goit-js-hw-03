@@ -34,7 +34,7 @@ const getAllPropValues = function(arr, prop) {
       keys = Object.keys(oneProductObject);
  
        
-      for (let key of keys) {
+      for (const key of keys) {
           if (key === prop) {
               oneValueArray.push(oneProductObject[key]);
               
